@@ -8,7 +8,8 @@
 #### How? -> Management can post an opening, check who has applied and even message the candidate directly. Similarly, Huskies can apply to any number of available openings, reply to the management and plan their trails accordingly.
 
 ### Stack:
-Java Spring
-Hibernate 
-MySQL
+Java Spring,
+Hibernate, 
+MySQL,
+HTML, CSS,
 JSP/Servlet
