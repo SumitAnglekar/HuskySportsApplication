@@ -4,6 +4,14 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
-	<bean id="huskyDao" class="com.neu.Dao.HuskyDao" />	
 	
+	<bean id="userValidator" class="com.neu.validator.UserValidator"></bean>
+	<bean id="userDao" class="com.neu.dao.UserDAO" ></bean>
+	<bean id="appPostValidator" class="com.neu.validator.AppPostValidator"></bean>
+	<bean id="employerDao" class="com.neu.dao.ScoutDAO" ></bean>
+	<bean id="applyValidator" class="com.neu.validator.ApplyValidator"></bean>
+	<bean id="playerDao" class="com.neu.dao.PlayerDAO" ></bean>
+	<bean id="messageValidator" class="com.neu.validator.MessageValidator"></bean>
+	<bean id="messageDao" class="com.neu.dao.MessageDAO" ></bean>	 
 </beans>
+	

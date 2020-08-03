@@ -1,4 +1,4 @@
-package com.neu.Dao;
+package com.neu.dao;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -7,6 +7,8 @@ import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+
+import com.neu.dao.DAO;
 
 public class DAO {
 	
@@ -20,7 +22,6 @@ public class DAO {
 
     public static Session getSession()
     {
-    	
         Session session = (Session) DAO.sessionThread.get();
         
         if (session == null)

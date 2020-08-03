@@ -6,11 +6,9 @@
 </head>
 <body>
 <h1>
-	Hello Huskies !  
+	Hello world!  
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
-<a href="home/register">Signup</a>
-<a href="home/login">Login</a>
 </body>
 </html>
